@@ -1,0 +1,35 @@
+{
+  "name": "idyll-webpack-loader",
+  "version": "0.0.1",
+  "description": "Webpack loader for idyll docs",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --detectOpenHandles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idyll-lang/idyll-webpack-loader.git"
+  },
+  "author": "Matthew Conlen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idyll-lang/idyll-webpack-loader/issues"
+  },
+  "homepage": "https://github.com/idyll-lang/idyll-webpack-loader#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.8",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "jest": "^27.4.7",
+    "memory-fs": "^0.5.0",
+    "webpack": "^4.46.0"
+  },
+  "dependencies": {
+    "change-case": "^4.1.2",
+    "idyll": "^5.7.6",
+    "idyll-compiler": "^4.0.26"
+  }
+}
